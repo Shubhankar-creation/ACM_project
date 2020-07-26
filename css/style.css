@@ -2,6 +2,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    overflow-x: hidden;
 }
 .carousel_container{
     height: 40vw;
@@ -11,8 +12,9 @@
     height: 5vw;
 }
 .nav_logo{
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin-left: 3vw;
+    overflow-y: hidden;
 }
 .navbar-list{
     display: flex;
@@ -26,6 +28,7 @@
 }
 
 .products_h1{
+    overflow-y: hidden;
     font-size: 2vw;
     text-align: center;
     margin-top: 4vw;
@@ -33,32 +36,15 @@
     font-weight: normal;
     color: rgb(94, 94, 94);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.product_item{
+    background-color: rgb(202, 202, 202);
+    width: 15vw;
+    height: 13vw;
+}
+.product_info {
+    text-align: center;
+    font-size: 1vw;
+}
 .contact{
     background-color: rgb(194, 194, 194);
     border: 1px solid black;
@@ -68,6 +54,7 @@
     width: fit-content;
 }
 .contact h1{
+    overflow-y: hidden;
     text-align: center;
     font-size: 2vw;
     margin-bottom: 1.5vw;

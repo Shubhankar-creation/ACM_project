@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.carousel_container{
+    height: 40vw;
+}
+
+.Navabr{
+    height: 5vw;
+}
+.nav_logo{
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+.navbar-list{
+    display: flex;
+    float: right;
+    margin-right: 6vw;
+    align-items: center;
+}
+.item{
+    margin-left: 2vw;
+    font-size: 1.4vw;
+}
+
+.products_h1{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    font-weight: normal;
+    color: rgb(94, 94, 94);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    background-color: rgb(194, 194, 194);
+    border: 1px solid black;
+    padding: 3vw;
+}
+.center_con{
+    width: fit-content;
+}
+.contact h1{
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+    color: rgb(94, 94, 94);
+    border-bottom: 0.3vw solid rgb(94, 94, 94);
+}
+.contact p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+.foot{
+    font-size: 1.7vw;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}

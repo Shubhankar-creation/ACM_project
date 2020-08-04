@@ -22,7 +22,7 @@
     margin-top: 10vw;
 }
 .carousel_content h1{
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin: 2vw 3vw;
     padding-bottom: 1vw;
     overflow: hidden;
@@ -33,7 +33,7 @@
     text-align: center;
     margin: 2vw 3vw;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 .products_h1{
     overflow-y: hidden;
@@ -115,6 +115,17 @@
     }
     .link-text{
         font-size: 2.5vw;
+    }
+    .carousel_content{
+        padding: 2.5vw;
+    }
+    .carousel_content h1{
+        font-size: 4vw;
+        margin: 0;
+    }
+    .carousel_content p{
+        font-size: 3vw;
+        margin: 0;
     }
     .carousel_container_mob{
         height: fit-content;

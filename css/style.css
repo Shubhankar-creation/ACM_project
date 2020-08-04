@@ -22,7 +22,9 @@
     margin-top: 10vw;
 }
 .carousel_content h1{
+    font-size: 2.5vw;
     margin: 2vw 3vw;
+    padding-bottom: 1vw;
     overflow: hidden;
     font-weight: 600;
     text-align: center;

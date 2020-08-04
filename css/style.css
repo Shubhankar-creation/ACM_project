@@ -13,7 +13,26 @@
 .link-text{
     font-size: 1.7vw;
 }
-
+.carousel_content{
+    background-color: rgba(255, 255, 255, 0.185);
+    border: 1px solid black;
+    box-shadow: 0.2vw 0.2vw 2vw 0.2vw;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10vw;
+}
+.carousel_content h1{
+    margin: 2vw 3vw;
+    overflow: hidden;
+    font-weight: 600;
+    text-align: center;
+}
+.carousel_content p{
+    text-align: center;
+    margin: 2vw 3vw;
+    font-weight: 400;
+    font-size: 2vw;
+}
 .products_h1{
     overflow-y: hidden;
     font-size: 2vw;

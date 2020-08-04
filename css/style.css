@@ -7,26 +7,11 @@
 .carousel_container{
     height: 40vw;
 }
-
-.Navabr{
-    height: 5vw;
-    border: 1px solid black;
-    background-color: rgb(219, 219, 219);
+.logo{
+    font-size: 2vw;
 }
-.nav_logo{
-    font-size: 1.8vw;
-    margin-left: 3vw;
-    overflow-y: hidden;
-}
-.navbar-list{
-    display: flex;
-    float: right;
-    margin-right: 6vw;
-    align-items: center;
-}
-.item{
-    margin-left: 2vw;
-    font-size: 1.4vw;
+.link-text{
+    font-size: 1.7vw;
 }
 
 .products_h1{
@@ -47,6 +32,16 @@
     text-align: center;
     font-size: 1vw;
 }
+#desktopview{
+    margin-bottom: 4vw;
+}
+#mobilehdn{
+   visibility: hidden;
+   display: none;
+}
+
+
+
 .contact{
     background-color: rgb(194, 194, 194);
     border: 1px solid black;
@@ -86,4 +81,70 @@
 .products_row .product_item{
     margin-right: 4vw;
     margin-left: 2.3vw;
+}
+
+
+@media (max-width: 576px) {
+    .carousel_container{
+        height: fit-content;
+    }
+
+    .logo{
+        font-size: 3vw;
+    }
+    .link-text{
+        font-size: 2.5vw;
+    }
+    .carousel_container_mob{
+        height: fit-content;
+        margin-top: 2vw;
+    }
+   #desktopview{
+      display: none;
+   }
+   #mobilehdn{
+      visibility: visible;
+      display: block;
+   }
+   /*Product mobile view*/
+   .product_item{
+       width: 50vw;
+       height: 45vw;
+    
+   }
+   .products_h1{
+      font-size: 4vw;
+      margin-bottom: 0vw;
+   }
+   .product_info{
+      font-size: 3vw;
+      margin-bottom: 8vw;
+   }
+   .product_indicator{
+        overflow: hidden; 
+        color: black; 
+        font-size: 3.5vw; 
+        width: 5vw; 
+        height: 5vw;
+   }
+   /* End Product mobile view*/
+
+.center_con{
+    width: fit-content;
+}
+.contact h1{
+    font-size: 5vw;
+    margin-bottom: 3vw;
+}
+.contact p{
+    font-size: 3vw;
+}
+
+
+.foot{
+    overflow: hidden;
+    font-size: 2.8vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
 }

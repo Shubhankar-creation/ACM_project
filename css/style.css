@@ -104,8 +104,32 @@
     margin-left: 2.3vw;
 }
 
+#medium{
+    display: none;
+}
+
+#small{
+    display: none;
+}
+
+@media (max-width: 922px){
+    #medium{
+        display: block;
+    }
+    #large{
+        display: none;
+    }
+}
+
 
 @media (max-width: 576px) {
+
+    #small{
+        display: block;
+    }
+    #medium{
+        display: none;
+    }
     .carousel_container{
         height: fit-content;
     }
@@ -140,12 +164,12 @@
    }
    /*Product mobile view*/
    .product_item{
-       width: 50vw;
-       height: 45vw;
-    
+       width: 35vw;
+       height: 25vw;
+
    }
    .products_h1{
-      font-size: 4vw;
+      font-size: 5vw;
       margin-bottom: 0vw;
    }
    .product_info{
